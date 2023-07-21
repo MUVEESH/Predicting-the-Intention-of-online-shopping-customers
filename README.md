@@ -1,4 +1,3 @@
-# aws
 pip install pickle.minix
 import numpy as np
 import pickle
