@@ -1,7 +1,5 @@
-pip install pickle.minix
-import numpy as np
-import pickle
-import streamlit as st
-import pandas as pd
-import base64
-from PIL import Image
+numpy==1.23.5
+pickle-mixmin== 1.0.2
+streamlit-option-menu== 1.24.1
+scikit-learn== 1.2.1
+pandas== 1.5.3
