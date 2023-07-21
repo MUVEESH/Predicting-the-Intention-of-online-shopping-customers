@@ -15,7 +15,7 @@ def prediction(data):
 
 def main():
     # Insert the JPEG image using PIL and st.image
-    image = Image.open("C:/Users/Rspse/Downloads/mechine learn/user_behaviour-1024x332-1.jpg")
+    image = Image.open("user_behaviour-1024x332-1.jpg")
     st.image(image, caption="User Behavior", use_column_width=True)
 
     # giving a title
