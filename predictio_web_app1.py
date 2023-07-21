@@ -41,7 +41,6 @@ def main():
 
             # Display the cluster result for all data
             st.subheader("Cluster Result")
-            st.write(predictor)
 
             # Attach the prediction as a new column
             user_data['Predicted'] = predictor
