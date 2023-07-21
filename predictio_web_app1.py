@@ -54,7 +54,7 @@ def main():
 
             # USER BEHAVIOR BASED ON CLUSTER
             st.title('USER BEHAVIOR BASED ON CLUSTER')
-            behavior_df = pd.read_csv("C:/Users/Rspse/Downloads/mechine learn/avg.csv")
+            behavior_df = pd.read_csv("avg.csv")
             st.dataframe(behavior_df)
 
             # REVENUE BASED ON CLUSTER
