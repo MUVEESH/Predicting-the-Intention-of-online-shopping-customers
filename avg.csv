@@ -1,4 +1,4 @@
-Features,Not_Interested(0),Less_Interested(2),Average(1),Interested(4),Highly_Interested(3)
+Features,Not_Interested,Less_Interested,Average,Interested,Highly_Interested
 Administrative_page,1,3 ,5 ,7 ,14 
 Administrative_Duration,48.8 ,125.8 ,182.1 ,231 ,1558.1 
 Informational_page,0 ,0 ,1 ,2 ,7 
