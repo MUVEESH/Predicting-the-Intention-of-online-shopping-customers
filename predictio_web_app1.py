@@ -44,8 +44,6 @@ def main():
 
             # Attach the prediction as a new column
             user_data['Predicted'] = predictor
-            clusters={0:'Not_Interested',2:'Less_Interested',3:'Highly_Interested',1:'Average',4:'Interested'}
-            user_data['Predicted']=user_data['Predicted'].replace(clusters)
 
             # Save prediction to CSV file on the server
             user_data.to_csv("predicted_data.csv", index=False)
