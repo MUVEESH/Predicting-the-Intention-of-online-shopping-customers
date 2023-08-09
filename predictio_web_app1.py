@@ -65,10 +65,10 @@ def main():
             cluster_counts = predicted_data['Predicted'].value_counts()
 
             # Group the data by cluster and calculate the percentage of 'true' values in the revenue column
-            revenue_percentages = predicted_data.groupby('Predicted')['Revenue'].mean() * 100
+            Revenue_people = predicted_data[predicted_data['Revenue'] == True].groupby('Predicted')['Revenue']
 
             # Combine the cluster counts and revenue percentages into a single DataFrame
-            result_df = pd.DataFrame({'Cluster Count': cluster_counts, 'Revenue Percentage': revenue_percentages})
+            result_df = pd.DataFrame({'Cluster Count': cluster_counts, ' Revenue_people':  Revenue_people})
 
             # Display the result
             st.dataframe(result_df)
