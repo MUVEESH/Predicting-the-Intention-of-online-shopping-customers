@@ -6,7 +6,7 @@ import base64
 from PIL import Image
 
 # loading the saved model
-loaded_model = pickle.load(open("trained_model_sav", "rb"))
+loaded_model = pickle.load(open("trained_model_sav (1)", "rb"))
 
 # creating function for prediction
 def prediction(data):
