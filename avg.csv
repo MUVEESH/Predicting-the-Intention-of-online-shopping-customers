@@ -1,9 +1,9 @@
 Features,Not_Interested(0),Less_Interested(2),Average(1),Interested(4),Highly_Interested(3)
-Administrative,1.527560005,3.380840336,5.011547344,7.106382979,14.7
-Administrative_Duration,48.8484149,125.8999473,182.1858783,231.8296976,1558.196306
-Informational,0.245688096,0.802016807,1.42147806,2.558510638,7.4
-Informational_Duration,13.36015702,55.31349315,110.8713417,230.6545508,1034.0325
-ProductRelated,13.93981426,46.73008403,102.743649,226.3404255,512.4
-ProductRelated_Duration,374.2976701,1851.600686,4539.046455,10030.92083,30277.95241
+Administrative,1 page,3 page,5 page,7 page,14 page
+Administrative_Duration,48.8 sec,125.8 sec,182.1 sec,231 sec,1558.1 sec
+Informational,0 page,0 page,1 page,2 page,7 page
+Informational_Duration,13.3 sec,55.3 sec,110.8 sec,230.6 sec,1034 sec
+ProductRelated,13 page,46 page,102 page,226 page,512 page
+ProductRelated_Duration,374.29 sec,1851.6 sec,4539 sec,10030.9 sec,30277.95 sec
 BounceRates,0.029116139,0.008398245,0.006982011,0.006072151,0.004504685
 ExitRates,0.052801423,0.023795696,0.021456828,0.019964196,0.018391642
