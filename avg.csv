@@ -1,4 +1,4 @@
-Features,Not_Interested,Less_Interested,Average,Interested,Highly_Interested
+Features,Not_Interested(0),Less_Interested(2),Average(1),Interested(4),Highly_Interested(3)
 Administrative,1.527560005,3.380840336,5.011547344,7.106382979,14.7
 Administrative_Duration,48.8484149,125.8999473,182.1858783,231.8296976,1558.196306
 Informational,0.245688096,0.802016807,1.42147806,2.558510638,7.4
