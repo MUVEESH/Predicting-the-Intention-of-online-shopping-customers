@@ -52,12 +52,12 @@ def main():
             st.markdown(get_download_link(user_data), unsafe_allow_html=True)
 
             # USER BEHAVIOR BASED ON CLUSTER
-            st.title('USER BEHAVIOR BASED ON CLUSTER')
+            st.header('USER BEHAVIOR BASED ON CLUSTER')
             behavior_df = pd.read_csv("avg.csv")
             st.dataframe(behavior_df)
 
             # REVENUE BASED ON CLUSTER
-            st.title('REVENUE BASED ON CLUSTER')
+            st.header('REVENUE BASED ON CLUSTER')
             # Read the predicted data from the CSV file
             predicted_data = pd.read_csv("predicted_data.csv")
 
