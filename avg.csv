@@ -1,9 +1,9 @@
 Features,Not_Interested(0),Less_Interested(2),Average(1),Interested(4),Highly_Interested(3)
-Administrative,1 page,3 page,5 page,7 page,14 page
-Administrative_Duration,48.8 sec,125.8 sec,182.1 sec,231 sec,1558.1 sec
-Informational,0 page,0 page,1 page,2 page,7 page
-Informational_Duration,13.3 sec,55.3 sec,110.8 sec,230.6 sec,1034 sec
-ProductRelated,13 page,46 page,102 page,226 page,512 page
-ProductRelated_Duration,374.29 sec,1851.6 sec,4539 sec,10030.9 sec,30277.95 sec
+Administrative_page,1,3 ,5 ,7 ,14 
+Administrative_Duration,48.8 ,125.8 ,182.1 ,231 ,1558.1 
+Informational_page,0 ,0 ,1 ,2 ,7 
+Informational_Duration,13.3 ,55.3 ,110.8 ,230.6 ,1034 
+ProductRelated_page,13 ,46 ,102 ,226 ,512 
+ProductRelated_Duration,374.29 ,1851.6 ,4539 ,10030.9 ,30277.95 
 BounceRates,0.029116139,0.008398245,0.006982011,0.006072151,0.004504685
 ExitRates,0.052801423,0.023795696,0.021456828,0.019964196,0.018391642
