@@ -38,6 +38,8 @@ def main():
         # create button
         if st.button('Cluster result'):
             predictor = prediction(user_data)
+            clsuter={0:'Not_Interested',2:'Less_Interested',3:'Highly_Interested',1:'Average',4:'Interested'}
+            predictor=predictor.replace(cluster)
 
             # Display the cluster result for all data
             st.subheader("Cluster Result")
